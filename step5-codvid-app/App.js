@@ -8,7 +8,7 @@ import Geocoder from 'react-native-geocoding';
 const CovidMapScreen = () => {
 
     useEffect(() => {
-        Geocoder.init("AIzaSyBz-G5iN0xOzfxSdBbJHXpWRXlnr8a8hK0", { language: "en" })
+        Geocoder.init("Your apikey", { language: "en" })
     }, [])
 
     const [markers, setMarkers] = useState([]);
